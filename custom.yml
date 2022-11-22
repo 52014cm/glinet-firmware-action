@@ -5,10 +5,12 @@ feeds:
     uri: https://github.com/fw876/helloworld.git
     branch: master
 packages:
+  - luci-app-ssr-plus
   - luci-app-mwan3
-
-
-
+  - luci-theme-argon
+  - luci-app-argon-config
+  - luci-app-adguardhome
+  - luci-app-dnsfilter
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
   CONFIG_PACKAGE_wpad=n
