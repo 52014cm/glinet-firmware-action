@@ -9,8 +9,8 @@ packages:
   - luci-app-mwan3
   - luci-theme-argon
   - luci-app-argon-config
-  - luci-app-adguardhome
-  - luci-app-dnsfilter
+  #- luci-app-adguardhome
+  #- luci-app-dnsfilter
 diffconfig: |
   CONFIG_PACKAGE_wpad-basic=n
   CONFIG_PACKAGE_wpad=n
